@@ -1,0 +1,6 @@
+## Interface: 80000
+## Title: Meins
+## Notes: mein addon
+## Author: ich
+
+Meins.lua
