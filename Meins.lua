@@ -4,6 +4,17 @@ function SlashCmdList.HELLOWORLD(msg, editbox)
 	print("HI")
 end
 
+function meins_sell()
+	for bag = 0, 4 do
+		for slot = 1,GetContainerNumSlots(bag) do
+			item = GetContainerItemLink(bag,slot)
+			if item and string.find(item,161981) and string.find(item,"cff1eff00") then
+				UseContainerItem(bag,slot)
+			end
+		end
+	end
+end
+
 
 function meins_indiebank (name)
 	for bag = 0, 4 do 
